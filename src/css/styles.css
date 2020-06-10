@@ -53,9 +53,24 @@ html, body {
     border-bottom: solid 1px #fff;
 }
 
+.jobList deleteButton {
+    font-family: 'Hi Melody', cursive;
+    font-weight: bold;
+    position: absolute;
+    right: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(61, 61, 61);
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+
 .inputList {
     text-align: center;
     margin-top: 30px;
+    padding-bottom: 30px;
 }
 .inputList h2 {
     margin-top: 0;
@@ -68,4 +83,8 @@ html, body {
     font-size: 18px;
     width: 500px;
     height: 30px;
+}
+
+.footer{
+    text-align: center;
 }
